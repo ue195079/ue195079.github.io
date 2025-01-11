@@ -1,0 +1,183 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SnapEx – AI-Powered Expense Management</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" 
+    rel="stylesheet"
+  >
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navigation Bar -->
+  <nav class="flex items-center justify-between py-4 px-8 bg-white shadow">
+    <a href="#" class="text-2xl font-extrabold text-indigo-600">SnapEx</a>
+    <div>
+      <a 
+        href="#form" 
+        class="inline-block text-sm px-4 py-2 border rounded text-indigo-600 border-indigo-600 hover:bg-indigo-600 hover:text-white"
+      >
+        Get Started
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="relative bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 text-white py-24">
+    <div class="container mx-auto px-8 flex flex-col md:flex-row items-center">
+      <div class="w-full md:w-1/2 mb-8 md:mb-0">
+        <h1 class="text-5xl font-extrabold leading-tight mb-6">
+          Simplify Expense Management with AI
+        </h1>
+        <p class="text-lg font-medium mb-6">
+          Send receipts via WhatsApp and let SnapEx handle the rest—AI-powered fraud detection, automatic approvals, and insightful analytics.
+        </p>
+        <a 
+          href="#form" 
+          class="inline-block px-8 py-4 text-lg font-bold bg-white text-indigo-600 rounded-md shadow-lg hover:bg-gray-50 transition"
+        >
+          Get Early Access
+        </a>
+      </div>
+      <div class="w-full md:w-1/2 flex justify-center">
+        <img 
+          src="https://images.unsplash.com/photo-1554224154-22dec7ec8818?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" 
+          alt="Hero" 
+          class="rounded-lg shadow-lg object-cover"
+        >
+      </div>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section class="container mx-auto px-8 py-16">
+    <h2 class="text-4xl font-bold text-center mb-12">Why SnapEx Stands Out</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- Feature 1 -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <div class="mb-4 text-indigo-600">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" 
+               viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" 
+                  d="M3 10h4l3 10h8l3-10h4" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">Submit Expenses Instantly</h3>
+        <p>Simply snap a picture of your receipt and send it through WhatsApp, Slack, Teams, or Telegram. It’s that easy!</p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <div class="mb-4 text-indigo-600">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" 
+               viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" 
+                  d="M11 12h2m-1-1v2m-6 4h12l1-2H4l1 2z" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">Smart Receipt Processing</h3>
+        <p>Our AI extracts key details like amounts, taxes, and vendors—no manual entry needed.</p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <div class="mb-4 text-indigo-600">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" 
+               viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" 
+                  d="M14 10l2 2m-2-2l-2 2m2-2v6m7 2H3" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">AI Fraud Detection</h3>
+        <p>Get peace of mind with automated fraud detection that flags suspicious expenses.</p>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <div class="mb-4 text-indigo-600">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" 
+               viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" 
+                  d="M8 7h4m2 0h5m-2 2v5m0 2v5m2-7h3" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">Seamless Approvals</h3>
+        <p>Approve or reject claims in seconds—SnapEx simplifies your workflow.</p>
+      </div>
+
+      <!-- Feature 5 -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <div class="mb-4 text-indigo-600">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" 
+               viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" 
+                  d="M5 13l4 4L19 7" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">Accounting Integration</h3>
+        <p>Sync data seamlessly with QuickBooks, Zoho, and more for accurate financial records.</p>
+      </div>
+
+      <!-- Feature 6 -->
+      <div class="bg-white p-6 rounded-lg shadow hover:shadow-xl transition">
+        <div class="mb-4 text-indigo-600">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" 
+               viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" 
+                  d="M9 17v-2a4 4 0 10-8 0v2a4 4 0 108 0v-2a4 4 0 108 0v2a4 4 0 10-8 0z" />
+          </svg>
+        </div>
+        <h3 class="text-xl font-semibold mb-2">Powerful Analytics</h3>
+        <p>Gain insights into spending patterns and optimize budgets with detailed dashboards.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call-to-Action Section -->
+  <section id="form" class="bg-indigo-50 py-16">
+    <div class="container mx-auto px-8 max-w-xl text-center">
+      <h2 class="text-4xl font-extrabold mb-4 text-indigo-800">Get Started with SnapEx</h2>
+      <p class="text-gray-600 mb-8">
+        Experience the future of expense management. Sign up today and streamline your process.
+      </p>
+      <form class="flex flex-col sm:flex-row sm:justify-center sm:items-center space-y-4 sm:space-y-0 sm:space-x-4">
+        <input 
+          type="email" 
+          placeholder="Enter your email" 
+          required 
+          class="flex-1 px-4 py-3 border rounded-md text-gray-700 outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+        >
+        <button 
+          type="submit" 
+          class="px-8 py-3 bg-indigo-600 text-white rounded-md font-semibold hover:bg-indigo-700 transition"
+        >
+          Join Now
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-white py-8 shadow-inner mt-10">
+    <div class="container mx-auto px-8 flex flex-col md:flex-row items-center justify-between">
+      <p class="text-gray-600 mb-4 md:mb-0">&copy; 2025 SnapEx, Inc. All rights reserved.</p>
+      <div class="space-x-4">
+        <a href="#" class="text-gray-600 hover:text-indigo-600">Terms</a>
+        <a href="#" class="text-gray-600 hover:text-indigo-600">Privacy</a>
+        <a href="#" class="text-gray-600 hover:text-indigo-600">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
